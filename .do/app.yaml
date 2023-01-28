@@ -1,0 +1,8 @@
+name: soketi
+services:
+- dockerfile_path: Dockerfile.debian
+  github:
+    branch: 1.x
+    deploy_on_push: true
+    repo: Trucky/soketi
+  name: soketi
